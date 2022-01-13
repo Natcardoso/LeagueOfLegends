@@ -1,0 +1,56 @@
+.main-slide {
+  width: 60rem;
+  margin: 2em 0;
+  margin-right: 2em;
+  border: 0.5px solid var(--gold);
+  background-color: var(--darkBlue);
+}
+
+.carousel .thumb {
+  width: 5%;
+  height: 50px;
+}
+
+.carousel {
+  text-align: center;
+}
+
+.carousel.carousel-slider .control-arrow {
+  padding: 15px;
+}
+
+.carousel.carousel-slider .control-arrow:hover {
+  background-color: transparent;
+  padding: 20px;
+}
+
+.carousel .control-dots {
+  display: none;
+}
+
+@media (min-width: 0px) and (max-width: 426px) {
+  .main-slide {
+    width: 21rem;
+    margin: 0;
+    border: none;
+  }
+
+  .carousel .thumbs-wrapper {
+    display: none;
+  }
+}
+
+@media (min-width: 467px) and (max-width: 769px) {
+  .main-slide {
+    width: 45rem;
+    margin: 0;
+    border: none;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 1025px) {
+  .main-slide {
+    width: 40rem;
+    margin: 0;
+  }
+}

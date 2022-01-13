@@ -1,0 +1,18 @@
+{
+  "PageList": {
+    "search": "Buscar...",
+    "all": "todos",
+    "assassins": "asesinos",
+    "fighters": "luchadores",
+    "mages": "magos",
+    "marksmen": "tiradores",
+    "supports": "soportes",
+    "tanks": "tanques"
+  },
+
+  "Details": {
+    "role": "Rol",
+    "abilities": "Habilidades",
+    "skins": "Aspectos"
+  }
+}

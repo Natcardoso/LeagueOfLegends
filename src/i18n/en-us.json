@@ -1,0 +1,18 @@
+{
+  "PageList": {
+    "search": "Search...",
+    "all": "all",
+    "assassins": "assassins",
+    "fighters": "fighters",
+    "mages": "mages",
+    "marksmen": "marksmen",
+    "supports": "supports",
+    "tanks": "tanks"
+  },
+
+  "Details": {
+    "role": "Role",
+    "abilities": "Abilities",
+    "skins": "Skins"
+  }
+}
