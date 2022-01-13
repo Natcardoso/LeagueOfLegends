@@ -15,7 +15,6 @@ type Props = {
   keyChampion: number;
   spells: Array<Record<string, string>>;
   id: number;
-  passive: string;
 };
 
 const Skills: React.FC<Props> = (props): JSX.Element => {

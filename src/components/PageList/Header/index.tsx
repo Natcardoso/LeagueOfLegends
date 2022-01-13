@@ -16,8 +16,7 @@ export const Header = () => {
     divPopover?.classList.add("open");
   }
 
-  const ulrMultiLanguages = `http://ddragon.leagueoflegends.com/cdn/11.23.1/data/${languages}/champion.json`;
-  setData(ulrMultiLanguages);
+  setData(`http://ddragon.leagueoflegends.com/cdn/11.23.1/data/${languages}/champion.json`);
 
   function idioma(language: string) {
     setLanguages(`${language}`);

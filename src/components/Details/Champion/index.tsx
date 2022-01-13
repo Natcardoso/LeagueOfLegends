@@ -23,7 +23,6 @@ interface Champion {
   spells: Array<Record<string, string>>;
   skins: Array<Record<string, string>>;
   key: number;
-  passive: string;
 }
 
 const ChampionDetails = () => {
@@ -83,7 +82,6 @@ const ChampionDetails = () => {
               id={Number(id)}
               spells={champion?.spells}
               keyChampion={champion?.key}
-              passive={champion?.passive}
             />
           ) : (
             ""
