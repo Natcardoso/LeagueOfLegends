@@ -2,7 +2,7 @@
 
 
 =======
-Projeto utilizando a api do League of Legends, desenvolvido com React.JS, Typescript and Styled Components.
+Projeto utilizando a api do League of Legends, desenvolvido com React.JS, Typescript e Styled Components.
 
 ![image](https://user-images.githubusercontent.com/88684378/149400846-da34f613-84a4-4dba-9b93-e3fff58bf45d.png)
 ![image](https://user-images.githubusercontent.com/88684378/149401412-1b788ff6-f6ec-44fc-9348-e3187c465111.png)
