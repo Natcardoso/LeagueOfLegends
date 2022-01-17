@@ -107,10 +107,6 @@ export const DivFilter = styled.div`
     flex-wrap: wrap;
     padding: 0;
   }
-
-  @media (min-width: 770px) and (max-width: 1025px){
-    padding: 0.8rem;
-  }
 `;
 
 export const ButtonFilter = styled.button`
@@ -126,6 +122,7 @@ export const ButtonFilter = styled.button`
 
   -webkit-transition all 1s ease;
   transition all 1s ease;
+  cursor: pointer;
   
   &:hover {
     -webkit-transition all .5s ease;
@@ -157,10 +154,6 @@ export const ButtonFilter = styled.button`
   @media (min-width: 467px) and (max-width:769px){
     margin-bottom: 0.3rem;
   }
-
-  @media (min-width: 770px) and (max-width: 1025px){
-    font-size: 0.6rem;
-  }
 `;
 
 export const ContainerCards = styled.div`
@@ -174,10 +167,6 @@ export const ContainerCards = styled.div`
   @media (min-width: 0px) and (max-width: 426px) {
     padding: 0.3rem;
     margin-top: 1rem;
-  }
-
-  @media (min-width: 770px) and (max-width: 1025px) {
-    padding: 1rem 1rem;
   }
 `;
 
@@ -237,7 +226,7 @@ export const Cards = styled.div`
         background-color: var(--gold);
         border: 1px solid var(--gold);
 
-        margin-top: 18rem;
+        margin-top: 15rem;
         width: 8rem;
       }
     }
@@ -273,20 +262,6 @@ export const Cards = styled.div`
     img {
       width: 160px;
       height: 210px;
-    }
-
-    div {
-      width: 100px;
-      height: 150px;
-    }
-  }
-
-  @media (min-width: 770px) and (max-width: 1025px) {
-    margin: 0.2rem;
-
-    img {
-      width: 180px;
-      height: 250px;
     }
 
     div {

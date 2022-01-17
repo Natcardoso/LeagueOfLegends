@@ -7,15 +7,14 @@ export const DivSkins = styled.div`
   position: relative;
 
   background-color: var(--darkBlue);
-  padding: 1rem 0;
 
   p:nth-child(1) {
     text-align: center;
     font-size: 5em;
     font-weight: 600;
 
-    margin-bottom: 0.2em;
-    margin-top: 0.2em;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
     width: 35%;
 
     color: var(--white);
@@ -39,12 +38,6 @@ export const DivSkins = styled.div`
     p:nth-child(1) {
       width: 50%;
       font-size: 3.5rem;
-    }
-  }
-
-  @media (min-width: 770px) and (max-width: 1025px) {
-    p:nth-child(1) {
-      font-size: 4rem;
     }
   }
 `;

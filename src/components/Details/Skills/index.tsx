@@ -24,17 +24,16 @@ const Skills: React.FC<Props> = (props): JSX.Element => {
   const [URL, setURL] = useState(
     `https://d28xe8vt774jo5.cloudfront.net/champion-abilities/${numUrl}/ability_${numUrl}_Q1.webm`
   );
-  const [desc, setDesc] = useState("");
+  const [desc, setDesc] = useState('');
 
+  // `${props.spells[0].description}`;
   const eventClickMovie = (e: React.MouseEvent<HTMLButtonElement>) => {
     const id = e.currentTarget.id;
     const letter = id.split("");
     const num = letter[2];
     const description = props.spells[Number(num)].description;
-    
-    const url = `https://d28xe8vt774jo5.cloudfront.net/champion-abilities/${numUrl}/ability_${numUrl}_${letter[0]}1.webm`;
 
-    setURL(url);
+    setURL(`https://d28xe8vt774jo5.cloudfront.net/champion-abilities/${numUrl}/ability_${numUrl}_${letter[0]}1.webm`);
     setDesc(description);
   };
 

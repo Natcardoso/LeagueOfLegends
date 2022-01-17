@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
 export const DivContainerAbillity = styled.div`
-  height: 35rem;
+  height: 30rem;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  padding: 0 4rem;
-  width: 80%;
+  width: 85%;
   background-color: var(--darkBlue);
   border: 0.5px solid #434242;
+  margin-bottom: 4rem;
 
   & > p.txtAbilities {
     position: absolute;
@@ -33,7 +33,7 @@ export const DivContainerAbillity = styled.div`
     & > p.txtAbilities {
       top: -3rem;
       font-size: 3rem;
-      left: 4rem;
+      left: 1.5rem;
       padding-bottom: 0;
     }
   }
@@ -41,9 +41,9 @@ export const DivContainerAbillity = styled.div`
   @media (min-width: 467px) and (max-width: 769px) {
     flex-direction: column;
     justify-content: flex-start;
-    width: 100%;
+    width: 35rem;
     padding: 4rem 0;
-    height: 26rem;
+    height: 23rem;
 
     & > p.txtAbilities {
       top: -3.5rem;
@@ -51,17 +51,13 @@ export const DivContainerAbillity = styled.div`
       left: 1rem;
     }
   }
-
-  @media (min-width: 770px) and (max-width: 1025px) {
-    width: 85%;
-  }
 `;
 
 export const DivAbiliity = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  width: 50%;
+  align-items: center;
+  width: 40%;
 
   @media (min-width: 0px) and (max-width: 426px) {
     width: 100%;
@@ -72,8 +68,8 @@ export const DivAbiliity = styled.div`
 
   @media (min-width: 467px) and (max-width: 769px) {
     width: 100%;
-    flex-direction: row;
     justify-content: center;
+    flex-direction: row;
     flex-wrap: wrap;
   }
 `;
@@ -83,7 +79,7 @@ export const ButtonDetails = styled.button`
   justify-content: flex-start;
   align-items: center;
 
-  width: 400px;
+  width: 18rem;
   margin: 5px 5px;
   padding: 10px 10px;
 
@@ -92,7 +88,7 @@ export const ButtonDetails = styled.button`
   border: 1px solid var(--gold);
   border-radius: 3px;
 
-  transition: 0.5s ease;
+  transition: 0.7s ease;
 
   cursor: pointer;
 
@@ -110,14 +106,10 @@ export const ButtonDetails = styled.button`
     width: 190px;
     margin: 0.2rem 0.5rem;
   }
-
+  
   @media (min-width: 467px) and (max-width: 769px) {
-    width: 200px;
+    width: 300px;
     margin: 0.1rem 0.5rem;
-  }
-
-  @media (min-width: 770px) and (max-width: 1025px) {
-    width: 250px;
   }
 `;
 
@@ -170,6 +162,16 @@ export const DivDescription = styled.div`
       font-size: 0.8rem;
     }
   }
+
+  @media (min-width: 467px) and (max-width: 769px) {
+    p:nth-child(1) {
+      font-size: 0.7rem;
+    }
+
+    p:nth-child(2) {
+      font-size: 0.9rem;
+    }
+  }
 `;
 
 export const Media = styled.p`
@@ -184,7 +186,7 @@ export const Media = styled.p`
   div:nth-child(1) {
     display: block;
     width: 100%;
-    height: 350px;
+    height: 380px;
   }
 
   div.containerTxt {
@@ -195,7 +197,7 @@ export const Media = styled.p`
       color: var(--white);
       margin-top: 1rem;
       text-align: center;
-      font-size: 17px;
+      font-size: 0.9rem;
     }
   }
 
@@ -219,17 +221,5 @@ export const Media = styled.p`
     width: 100%;
     height: 14rem;
     padding: 0.5rem 0;
-  }
-
-  @media (min-width: 770px) and (max-width: 1025px) {
-    width: 55%;
-
-    div.containerTxt {
-      width: 30rem;
-
-      p {
-        margin-top: 0;
-      }
-    }
   }
 `;

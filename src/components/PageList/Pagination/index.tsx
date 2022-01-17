@@ -6,21 +6,24 @@ interface Type {
 }
 
 const Pagination = ({ pages, setCurrentPage }: Type): JSX.Element => {
-  return (
-    <PaginationContainer>
-      {Array.from(Array(pages), (item, index) => {
-        return (
-          <button
-            key={index}
-            value={index}
-            onClick={(e) => setCurrentPage(Number(e.currentTarget.value))}
-          >
-            {index + 1}
-          </button>
-        );
-      })}
-    </PaginationContainer>
-  );
+  window.scrollTo(0, 0);
+
+    return (
+      <PaginationContainer>
+        {Array.from(Array(pages), (item, index) => {
+          return (
+            <button
+              className="buttonPagination"
+              key={index}
+              value={index}
+              onClick={(e) => setCurrentPage(Number(e.currentTarget.value))}
+            >
+              {index + 1}
+            </button>
+          );
+        })}
+      </PaginationContainer>
+    );
 };
 
 export default Pagination;

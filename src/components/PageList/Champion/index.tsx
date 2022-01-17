@@ -67,6 +67,10 @@ const ListOfChampions = () => {
       );
       setItem(filter);
     }
+
+    if(inputValue == ''){
+      setItem(champions);
+    }
   };
 
   const buttonFilter = (names: string) => {

@@ -12,26 +12,20 @@ export const BackgroundContainer = styled.div`
 
   @media (min-width: 0px) and (max-width: 426px) {
     div {
-      height: 19rem;
+      height: 15rem;
     }
   }
 
   @media (min-width: 467px) and (max-width: 769px) {
     div {
-      height: 23rem;
-    }
-  }
-
-  @media (min-width: 770px) and (max-width: 1025px) {
-    div {
-      height: 39rem;
+      height: 21.1rem;
     }
   }
 `;
 
 export const ImgBackground = styled.img`
-  width: 1200px;
-  height: 600px;
+  width: 70rem;
+  height: 39rem;
 
   @media (min-width: 0px) and (max-width: 426px) {
     width: 100%;
@@ -42,20 +36,15 @@ export const ImgBackground = styled.img`
     width: 100%;
     height: 100%;
   }
-
-  @media (min-width: 770px) and (max-width: 1025px) {
-    width: 100%;
-    height: 90%;
-  }
 `;
 
 export const DivShadow = styled.div`
   position: absolute;
 
-  height: 2em;
+  height: 3.1rem;
   width: 100%;
 
-  top: 580px;
+  top: 30rem;
 
   background-color: var(--darkBlue);
   box-shadow: 0 0 6em 7em var(--darkBlue);
@@ -67,9 +56,8 @@ export const DivShadow = styled.div`
     position: absolute;
     text-align: center;
 
-    margin: 0 10rem;
     width: 50%;
-    left: 13rem;
+    left: 19rem;
 
     border-bottom: 0.5px solid var(--gold);
     top: -150%;
@@ -90,12 +78,12 @@ export const DivShadow = styled.div`
   }
 
   @media (min-width: 0px) and (max-width: 426px) {
-    top: 20rem;
+    top: 18rem;
     width: 100%;
 
     div {
       margin: 0 5.5rem;
-      left: -1rem;
+      left: -2rem;
       width: 70%;
 
       p:nth-child(1) {
@@ -110,11 +98,10 @@ export const DivShadow = styled.div`
 
   @media (min-width: 427px) and (max-width: 769px) {
     top: 23rem;
-    width: 48rem;
 
     div {
       margin: 0 5.5rem;
-      left: 4rem;
+      left: 2.5rem;
       width: 60%;
 
       p:nth-child(1) {
@@ -124,15 +111,6 @@ export const DivShadow = styled.div`
       p:nth-child(2) {
         font-size: 1rem;
       }
-    }
-  }
-
-  @media (min-width: 770px) and (max-width: 1025px) {
-    width: 100%;
-
-    div {
-      width: 60%;
-      left: 4rem;
     }
   }
 `;
@@ -148,7 +126,7 @@ export const DescriptionContainer = styled.div`
 
   div:nth-child(1) {
     text-align: center;
-    margin: 0 13rem;
+    margin: 0 9rem;
   }
 
   div:nth-child(2) {
@@ -164,12 +142,18 @@ export const DescriptionContainer = styled.div`
   }
 
   @media (min-width: 0px) and (max-width: 426px) {
+    padding: 1rem 0;
+
     p {
       font-size: 15px;
     }
 
     div:nth-child(1) {
       margin: 0 2rem;
+    }
+
+    div:nth-child(2){
+      padding: 0.5rem 0;
     }
   }
 
@@ -184,14 +168,6 @@ export const DescriptionContainer = styled.div`
 
     p {
       font-size: 18px;
-    }
-  }
-
-  @media (min-width: 770px) and (max-width: 1025px) {
-    padding: 1.5rem 0;
-
-    div:nth-child(1) {
-      margin: 0 6rem;
     }
   }
 `;
@@ -211,13 +187,13 @@ export const DivContainer = styled.div`
   padding-bottom: 1rem;
 
   @media (min-width: 0px) and (max-width: 426px) {
-    height: 48rem;
+    height: 40rem;
     padding-top: 0;
   }
 
   @media (min-width: 467px) and (max-width: 769px) {
-    height: 60rem;
+    height: 50rem;
     align-items: flex-start;
-    padding: 5rem;
+    padding-top: 2rem;
   }
 `;

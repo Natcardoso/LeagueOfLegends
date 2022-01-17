@@ -35,7 +35,7 @@ export const Header = () => {
             <AiOutlineGlobal />
           </button>
           <div className="popover">
-            <button type="button" onClick={() => idioma("pt_BR")}>
+            <button type="button" onClick={() => idioma("pt_BR")} autoFocus>
               Português(BR)
             </button>
             <button type="button" onClick={() => idioma("en_US")}>
