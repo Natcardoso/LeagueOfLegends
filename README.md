@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-
-
-=======
 Projeto utilizando a api do League of Legends, desenvolvido com React.JS, Typescript e Styled Components.
 
 ![image](https://user-images.githubusercontent.com/88684378/149400846-da34f613-84a4-4dba-9b93-e3fff58bf45d.png)
